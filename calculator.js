@@ -111,5 +111,6 @@ negate.addEventListener("click", () => {
   if (result.innerHTML != "") {
     let negation = -parseFloat(result.innerHTML);
     result.innerHTML = negation;
+    valueOne = 0;
   }
 });
